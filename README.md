@@ -1,1 +1,2 @@
 "# Eazy-Bank" 
+"# eazybank-app" 

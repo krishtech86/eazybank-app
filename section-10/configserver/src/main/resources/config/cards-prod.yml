@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to EazyBank Card related REST APIs"
+  contactDetails:
+    name: "John Smith"
+    email: "john@eazybytes.com"
+  onCallSupport:
+    - (453) 392-4832
+    - (236) 203-0884

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to EazyBank Loan related REST APIs"
+  contactDetails:
+    name: "Matt Henry"
+    email: "matt@eazybytes.com"
+  onCallSupport:
+    - (453) 392-1032
+    - (236) 203-0675

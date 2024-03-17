@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank Card related local APIs"
+  contactDetails:
+    name: "Pankaj Chavan - Developer"
+    email: "pankaj@eazybank.com"
+  onCallSupport:
+    - (555) 555-1345
+    - (555) 523-1789

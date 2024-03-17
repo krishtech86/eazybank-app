@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+card:
+  message: "Welcome to EazyBank Loan related REST APIs"
+  contactDetails:
+    name: "Harry Dsouza"
+    email: "harry@eazybytes.com"
+  onCallSupport:
+    - (453) 392-1332
+    - (236) 203-0816

@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to EazyBank card related QA APIs"
+  contactDetails:
+    name: "David Backman - QA Lead"
+    email: "david@eazybank.com"
+  onCallSupport:
+    - (666) 265-3770
+    - (666) 734-2371

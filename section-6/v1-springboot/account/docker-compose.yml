@@ -1,0 +1,37 @@
+services:
+  account:
+    image: "krishtech86/account:s4"
+    container_name: "account-ms"
+    ports:
+      - "8081:8081"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - eazybank
+  loan:
+    image: "krishtech86/loan:s4"
+    container_name: "loan-ms"
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - eazybank
+  card:
+    image: "krishtech86/card:s4"
+    container_name: "card-ms"
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - eazybank
+networks:
+  eazybank:
+    driver: "bridge"
